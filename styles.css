@@ -1,16 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: lightcoral;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 p {
     background-color: white;
-    display: inline-flex;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    margin: 0;
-    font-size: 50px;
+    align-items: center;
+    font-size: 100px;
     font-weight: bolder;
-    height: 70px;
-    width: 200px;
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 25vh auto;
+    box-shadow: 15px 15px 15px #585858;
 }
